@@ -14,6 +14,8 @@
 		491EB79C157C012E00918DD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 491EB79B157C012E00918DD1 /* main.m */; };
 		491EB7A0157C012E00918DD1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 491EB79F157C012E00918DD1 /* AppDelegate.m */; };
 		491EB7AD157C022700918DD1 /* SlidingMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 491EB7AC157C022700918DD1 /* SlidingMenuViewController.m */; };
+		491EB7B0157C103C00918DD1 /* DemoMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 491EB7AF157C103C00918DD1 /* DemoMenuViewController.m */; };
+		491EB7B3157C187100918DD1 /* DemoTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 491EB7B2157C187100918DD1 /* DemoTopViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		491EB79F157C012E00918DD1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		491EB7AB157C022700918DD1 /* SlidingMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlidingMenuViewController.h; sourceTree = "<group>"; };
 		491EB7AC157C022700918DD1 /* SlidingMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlidingMenuViewController.m; sourceTree = "<group>"; };
+		491EB7AE157C103C00918DD1 /* DemoMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoMenuViewController.h; sourceTree = "<group>"; };
+		491EB7AF157C103C00918DD1 /* DemoMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoMenuViewController.m; sourceTree = "<group>"; };
+		491EB7B1157C187100918DD1 /* DemoTopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoTopViewController.h; sourceTree = "<group>"; };
+		491EB7B2157C187100918DD1 /* DemoTopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoTopViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +86,10 @@
 				491EB796157C012E00918DD1 /* Supporting Files */,
 				491EB7AB157C022700918DD1 /* SlidingMenuViewController.h */,
 				491EB7AC157C022700918DD1 /* SlidingMenuViewController.m */,
+				491EB7AE157C103C00918DD1 /* DemoMenuViewController.h */,
+				491EB7AF157C103C00918DD1 /* DemoMenuViewController.m */,
+				491EB7B1157C187100918DD1 /* DemoTopViewController.h */,
+				491EB7B2157C187100918DD1 /* DemoTopViewController.m */,
 			);
 			path = SlidingMenuViewController;
 			sourceTree = "<group>";
@@ -160,6 +170,8 @@
 				491EB79C157C012E00918DD1 /* main.m in Sources */,
 				491EB7A0157C012E00918DD1 /* AppDelegate.m in Sources */,
 				491EB7AD157C022700918DD1 /* SlidingMenuViewController.m in Sources */,
+				491EB7B0157C103C00918DD1 /* DemoMenuViewController.m in Sources */,
+				491EB7B3157C187100918DD1 /* DemoTopViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

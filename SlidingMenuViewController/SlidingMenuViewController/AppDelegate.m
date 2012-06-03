@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import "SlidingMenuViewController.h"
+#import "DemoMenuViewController.h"
+#import "DemoTopViewController.h"
 
 @implementation AppDelegate
 
@@ -24,7 +26,21 @@
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
-    self.window.rootViewController = [[SlidingMenuViewController alloc] init];
+    
+    SlidingMenuViewController *slidingController = [[SlidingMenuViewController alloc] init];    
+    
+    DemoMenuViewController *menuViewController = [[DemoMenuViewController alloc] init];
+    DemoTopViewController *topViewController = [[DemoTopViewController alloc] initWithSlidingMenu:slidingController];
+    
+    slidingController.menuViewController = menuViewController;
+    slidingController.slidingViewController = topViewController;
+    slidingController.slideAnimationDuration = .2;
+    slidingController.maxSlideDistance = 150;
+    [menuViewController release];
+    [topViewController release];
+    
+    
+    self.window.rootViewController = slidingController;
     [self.window makeKeyAndVisible];
     return YES;
 }
