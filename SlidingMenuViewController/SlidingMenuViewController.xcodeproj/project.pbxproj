@@ -1,0 +1,271 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		491EB790157C012E00918DD1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 491EB78F157C012E00918DD1 /* UIKit.framework */; };
+		491EB792157C012E00918DD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 491EB791157C012E00918DD1 /* Foundation.framework */; };
+		491EB794157C012E00918DD1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 491EB793157C012E00918DD1 /* CoreGraphics.framework */; };
+		491EB79A157C012E00918DD1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 491EB798157C012E00918DD1 /* InfoPlist.strings */; };
+		491EB79C157C012E00918DD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 491EB79B157C012E00918DD1 /* main.m */; };
+		491EB7A0157C012E00918DD1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 491EB79F157C012E00918DD1 /* AppDelegate.m */; };
+		491EB7AD157C022700918DD1 /* SlidingMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 491EB7AC157C022700918DD1 /* SlidingMenuViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		491EB78B157C012E00918DD1 /* SlidingMenuViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlidingMenuViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		491EB78F157C012E00918DD1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		491EB791157C012E00918DD1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		491EB793157C012E00918DD1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		491EB797157C012E00918DD1 /* SlidingMenuViewController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SlidingMenuViewController-Info.plist"; sourceTree = "<group>"; };
+		491EB799157C012E00918DD1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		491EB79B157C012E00918DD1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		491EB79D157C012E00918DD1 /* SlidingMenuViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SlidingMenuViewController-Prefix.pch"; sourceTree = "<group>"; };
+		491EB79E157C012E00918DD1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		491EB79F157C012E00918DD1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		491EB7AB157C022700918DD1 /* SlidingMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlidingMenuViewController.h; sourceTree = "<group>"; };
+		491EB7AC157C022700918DD1 /* SlidingMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlidingMenuViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		491EB788157C012E00918DD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				491EB790157C012E00918DD1 /* UIKit.framework in Frameworks */,
+				491EB792157C012E00918DD1 /* Foundation.framework in Frameworks */,
+				491EB794157C012E00918DD1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		491EB780157C012C00918DD1 = {
+			isa = PBXGroup;
+			children = (
+				491EB795157C012E00918DD1 /* SlidingMenuViewController */,
+				491EB78E157C012E00918DD1 /* Frameworks */,
+				491EB78C157C012E00918DD1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		491EB78C157C012E00918DD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				491EB78B157C012E00918DD1 /* SlidingMenuViewController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		491EB78E157C012E00918DD1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				491EB78F157C012E00918DD1 /* UIKit.framework */,
+				491EB791157C012E00918DD1 /* Foundation.framework */,
+				491EB793157C012E00918DD1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		491EB795157C012E00918DD1 /* SlidingMenuViewController */ = {
+			isa = PBXGroup;
+			children = (
+				491EB79E157C012E00918DD1 /* AppDelegate.h */,
+				491EB79F157C012E00918DD1 /* AppDelegate.m */,
+				491EB796157C012E00918DD1 /* Supporting Files */,
+				491EB7AB157C022700918DD1 /* SlidingMenuViewController.h */,
+				491EB7AC157C022700918DD1 /* SlidingMenuViewController.m */,
+			);
+			path = SlidingMenuViewController;
+			sourceTree = "<group>";
+		};
+		491EB796157C012E00918DD1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				491EB797157C012E00918DD1 /* SlidingMenuViewController-Info.plist */,
+				491EB798157C012E00918DD1 /* InfoPlist.strings */,
+				491EB79B157C012E00918DD1 /* main.m */,
+				491EB79D157C012E00918DD1 /* SlidingMenuViewController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		491EB78A157C012E00918DD1 /* SlidingMenuViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 491EB7A3157C012E00918DD1 /* Build configuration list for PBXNativeTarget "SlidingMenuViewController" */;
+			buildPhases = (
+				491EB787157C012E00918DD1 /* Sources */,
+				491EB788157C012E00918DD1 /* Frameworks */,
+				491EB789157C012E00918DD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlidingMenuViewController;
+			productName = SlidingMenuViewController;
+			productReference = 491EB78B157C012E00918DD1 /* SlidingMenuViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		491EB782157C012C00918DD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Self;
+			};
+			buildConfigurationList = 491EB785157C012C00918DD1 /* Build configuration list for PBXProject "SlidingMenuViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 491EB780157C012C00918DD1;
+			productRefGroup = 491EB78C157C012E00918DD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				491EB78A157C012E00918DD1 /* SlidingMenuViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		491EB789157C012E00918DD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				491EB79A157C012E00918DD1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		491EB787157C012E00918DD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				491EB79C157C012E00918DD1 /* main.m in Sources */,
+				491EB7A0157C012E00918DD1 /* AppDelegate.m in Sources */,
+				491EB7AD157C022700918DD1 /* SlidingMenuViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		491EB798157C012E00918DD1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				491EB799157C012E00918DD1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		491EB7A1157C012E00918DD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		491EB7A2157C012E00918DD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		491EB7A4157C012E00918DD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SlidingMenuViewController/SlidingMenuViewController-Prefix.pch";
+				INFOPLIST_FILE = "SlidingMenuViewController/SlidingMenuViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		491EB7A5157C012E00918DD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SlidingMenuViewController/SlidingMenuViewController-Prefix.pch";
+				INFOPLIST_FILE = "SlidingMenuViewController/SlidingMenuViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		491EB785157C012C00918DD1 /* Build configuration list for PBXProject "SlidingMenuViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				491EB7A1157C012E00918DD1 /* Debug */,
+				491EB7A2157C012E00918DD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		491EB7A3157C012E00918DD1 /* Build configuration list for PBXNativeTarget "SlidingMenuViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				491EB7A4157C012E00918DD1 /* Debug */,
+				491EB7A5157C012E00918DD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 491EB782157C012C00918DD1 /* Project object */;
+}
