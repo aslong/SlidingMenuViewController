@@ -33,7 +33,6 @@
     self = [super init];
     if (self) {
         // Custom initialization
-        self.view.backgroundColor = [UIColor redColor];
         self.wantsFullScreenLayout = YES;
         _currentSlideState = SlidingMenuSlideStateClosed;
         self.slideAnimationDuration = SLIDING_MENU_DEFAULT_ANIMATION_SPEED;
