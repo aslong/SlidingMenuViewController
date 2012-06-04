@@ -29,7 +29,7 @@
         self.view.backgroundColor = [UIColor blackColor];
         [self.view setFrame:CGRectMake(0, 0, 200, 200)];
         self.view.autoresizingMask = UIViewAutoresizingNone;
-        self.demoList = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, 200, 200)];
+        self.demoList = [[UITableView alloc] initWithFrame:CGRectMake(0, 20, 200, 200)];
         self.demoList.dataSource = self;
         [self.view addSubview:self.demoList];
     }
