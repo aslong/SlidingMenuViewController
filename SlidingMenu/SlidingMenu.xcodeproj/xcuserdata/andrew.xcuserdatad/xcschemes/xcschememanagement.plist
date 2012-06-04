@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>SlidingMenuViewController.xcscheme</key>
+		<key>SlidingMenu.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>491EB78A157C012E00918DD1</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>4950C309157C369D00CA7570</key>
+		<key>4950C320157C378600CA7570</key>
 		<dict>
 			<key>primary</key>
 			<true/>

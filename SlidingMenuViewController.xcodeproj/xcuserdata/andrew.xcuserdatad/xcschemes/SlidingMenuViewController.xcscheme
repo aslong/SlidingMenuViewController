@@ -19,6 +19,20 @@
                ReferencedContainer = "container:SlidingMenuViewController.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4950C320157C378600CA7570"
+               BuildableName = "libSlidingMenu.a"
+               BlueprintName = "SlidingMenu"
+               ReferencedContainer = "container:SlidingMenu/SlidingMenu.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
