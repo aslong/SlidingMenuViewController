@@ -26,7 +26,6 @@
         self.slidingMenu = slidingMenu;
         // Custom initialization
         self.view.backgroundColor = [UIColor greenColor];
-        self.wantsFullScreenLayout = YES;
         showMenuButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
         showMenuButton.frame = CGRectMake(0, 0, 100, 40);
         [showMenuButton setTitle:@"show menu" forState:UIControlStateNormal];
