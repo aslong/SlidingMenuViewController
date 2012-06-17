@@ -20,12 +20,14 @@ typedef enum {
     UIViewController *_slidingViewController;
     NSTimeInterval _slideAnimationDuration;
     CGFloat _maxSlideDistance;
+    BOOL _allowRotation;
 }
 
 @property(nonatomic, retain) UIViewController *menuViewController;
 @property(nonatomic, retain) UIViewController *slidingViewController;
 @property(nonatomic, assign) NSTimeInterval slideAnimationDuration;
 @property(nonatomic, assign) CGFloat maxSlideDistance;
+@property(nonatomic, assign) BOOL allowRotation;
 
 - (void)slide;
 - (void)slideOpen;

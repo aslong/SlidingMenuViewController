@@ -27,16 +27,19 @@
 @synthesize slidingViewController = _slidingViewController;
 @synthesize slideAnimationDuration = _slideAnimationDuration;
 @synthesize maxSlideDistance = _maxSlideDistance;
+@synthesize allowRotation = _allowRotation;
 
 - (id)init
 {
     self = [super init];
     if (self) {
-        // Custom initialization
-        self.wantsFullScreenLayout = YES;
+        // Custom initialization 
+        CGRect fullScreen = [[UIScreen mainScreen] bounds];
+        self.view.frame = CGRectMake(0, 0, fullScreen.size.width, fullScreen.size.height);
         _currentSlideState = SlidingMenuSlideStateClosed;
         self.slideAnimationDuration = SLIDING_MENU_DEFAULT_ANIMATION_SPEED;
         self.maxSlideDistance = SLIDING_MENU_DEFAULT_SLIDE_DISTANCE;
+        _allowRotation = YES;
     }
     return self;
 }
@@ -144,7 +147,7 @@
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    return YES;
+    return self.allowRotation || (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
 @end
